@@ -1,0 +1,6 @@
+reduce in NARROWING :
+        narrowing(upModule('IDEMPOTENCE-VENDING-MACHINE, false),
+              '<_>['M1:Money],
+              =>*,
+              '<_>['__['$.Coin,'a.Item,'c.Item,'M2:Marking]],
+              standard, none, empty, '@, 4, unbounded) .

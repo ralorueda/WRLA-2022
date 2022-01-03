@@ -1,0 +1,6 @@
+reduce in NATIVE-NARROWING :
+        nativeNarrowing(
+              upModule('NARROWING-VENDING-MACHINE, false),
+              '<_>['M:Money],
+              'St:State,
+              '*, 7, 'none, unbounded) .

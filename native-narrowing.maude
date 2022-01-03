@@ -1,0 +1,38 @@
+fmod NATIVE-NARROWING is
+    protecting META-LEVEL .
+
+    sorts NarrowingSearchSolution NarrowingSearchSolutionList NarrowingSearchSolutionListAux .
+    subsort NarrowingSearchResult < NarrowingSearchSolution < NarrowingSearchSolutionList < NarrowingSearchSolutionListAux .
+
+    op nativeNarrowing : Module Term Term Qid Bound Qid Bound -> NarrowingSearchSolutionList .
+    op nativeNarrowing : Module Term Term Qid Bound Qid Bound Nat Nat -> NarrowingSearchSolutionListAux .
+    op noSolution : -> NarrowingSearchSolutionList [ctor] .
+    op _;_ : NarrowingSearchSolutionList NarrowingSearchSolutionList -> NarrowingSearchSolutionList [assoc id: noSolution] .
+
+    op {_,_} : Nat NarrowingSearchResult -> NarrowingSearchSolution .
+
+    var M : Module .   vars T1 T2 : Term .   vars Q1 Q2 : Qid .   vars MaxDepth MaxSol : Bound .   
+    var N : Nat .   var NSRL : NarrowingSearchSolutionList .   var NSS : NarrowingSearchSolution .
+    var SolCounter : Nat .   var SolId : Nat .
+
+    eq nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, 0) = failure .
+    eq nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, MaxSol) 
+                = nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, MaxSol, 0, 1) [owise] .
+
+    eq nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, MaxSol, 0, 1)
+                = {1, metaNarrowingSearch(M, T1, T2, Q1, MaxDepth, Q2, 0)} ; nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, MaxSol, 1, 2) .
+
+    eq NSRL ; {SolId, failure} ; nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, MaxSol, N, SolCounter) 
+                = NSRL .
+
+    eq NSS ; nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, unbounded, N, SolCounter)
+                = NSS ; {SolCounter, metaNarrowingSearch(M, T1, T2, Q1, MaxDepth, Q2, N)} 
+                      ; nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, unbounded, N + 1, s(SolCounter)) [owise] .
+
+    eq NSS ; nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, 0, N, SolCounter)
+                = NSS [owise] .
+                      
+    eq NSS ; nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, s(MaxSol), N, SolCounter)
+                = NSS ; {SolCounter, metaNarrowingSearch(M, T1, T2, Q1, MaxDepth, Q2, N)} 
+                      ; nativeNarrowing(M, T1, T2, Q1, MaxDepth, Q2, MaxSol, N + 1, s(SolCounter)) [owise] .
+endfm

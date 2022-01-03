@@ -1,0 +1,6 @@
+reduce in NARROWING :
+        narrowing(upModule('NARROWING-VENDING-MACHINE, false),
+              '<_>['M:Money],
+              =>*,
+              'St:State, 
+              canonical, none, empty, '@, 7, unbounded) .

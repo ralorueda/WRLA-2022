@@ -1,0 +1,2007 @@
+		     \||||||||||||||||||/
+		   --- Welcome to Maude ---
+		     /||||||||||||||||||\
+	     Maude alpha136 built: Jun  9 2021 03:42:03
+	     Copyright 1997-2021 SRI International
+		   Mon Dec 27 12:33:12 2021
+==========================================
+reduce in NARROWING : narrowing(upModule('NARROWING-VENDING-MACHINE, false),
+    '<_>['M:Money], =>*, 'St:State, canonical, none, empty, '@, 5, unbounded) .
+rewrites: 46065 in 324ms cpu (324ms real) (142175 rewrites/second)
+result SolutionList: {1,'<_>['M:Money],(none).Substitution,
+  'M:Money <- '%1:Money ; 
+  'St:State <- '<_>['%1:Money]} ; {2,'<_>['__['a.Item,'q.Coin,'$1:Money]],
+  'M:Money <- '__['$.Coin,'$1:Money],
+  '$1:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'q.Coin,'%1:Money]]} ; {3,'<_>['__['a.Item,
+    'q.Coin,'$1:Money]],
+  'M:Money <- '__['$.Coin,'$1:Money],
+  '$1:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'#1:Money]]} ; {4,'<_>['__['c.Item,
+    '$2:Money]],
+  'M:Money <- '__['$.Coin,'$2:Money],
+  '$2:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['c.Item,'%1:Money]]} ; {5,'<_>['__['a.Item,'a.Item,
+    'q.Coin,'q.Coin,'$3:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$3:Money],
+  '$3:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'q.Coin,'q.Coin,'%1:Money]]} ; {6,'<_>[
+    '__['a.Item,'a.Item,'q.Coin,'q.Coin,'$3:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$3:Money],
+  '$3:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'#1:Money]]} ; {7,'<_>['__[
+    'a.Item,'a.Item,'q.Coin,'$4:Money]],
+  'M:Money <- '__['$.Coin,'q.Coin,'q.Coin,'q.Coin,'$4:Money],
+  '$4:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'q.Coin,'%1:Money]]} ; {8,'<_>['__[
+    'a.Item,'a.Item,'q.Coin,'$4:Money]],
+  'M:Money <- '__['$.Coin,'q.Coin,'q.Coin,'q.Coin,'$4:Money],
+  '$4:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'#1:Money]]} ; {9,'<_>['__[
+    'a.Item,'c.Item,'q.Coin,'$5:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$5:Money],
+  '$5:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'q.Coin,'%1:Money]]} ; {10,'<_>['__[
+    'a.Item,'c.Item,'q.Coin,'$5:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$5:Money],
+  '$5:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'#1:Money]]} ; {11,'<_>['__[
+    'a.Item,'c.Item,'$6:Money]],
+  'M:Money <- '__['$.Coin,'q.Coin,'q.Coin,'q.Coin,'$6:Money],
+  '$6:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'%1:Money]]} ; {12,'<_>['__['a.Item,
+    'c.Item,'q.Coin,'$7:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$7:Money],
+  '$7:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'q.Coin,'%1:Money]]} ; {13,'<_>['__[
+    'a.Item,'c.Item,'q.Coin,'$7:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$7:Money],
+  '$7:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'#1:Money]]} ; {14,'<_>['__[
+    'c.Item,'c.Item,'$8:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$8:Money],
+  '$8:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['c.Item,'c.Item,'%1:Money]]} ; {15,'<_>['__['a.Item,
+    'a.Item,'a.Item,'q.Coin,'q.Coin,'q.Coin,'$9:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$9:Money],
+  '$9:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {16,'<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$9:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$9:Money],
+  '$9:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'#1:Money]]} ; {17,
+    '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'$10:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'$10:Money],
+  '$10:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'%1:Money]]} ; {18,
+    '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'$10:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'$10:Money],
+  '$10:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'#1:Money]]} ; {19,
+    '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$11:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$11:Money],
+  '$11:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'%1:Money]]} ;
+    {20,'<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$11:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$11:Money],
+  '$11:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'#1:Money]]} ; {21,
+    '<_>['__['a.Item,'a.Item,'c.Item,'$12:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'$12:Money],
+  '$12:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'%1:Money]]} ; {22,'<_>['__[
+    'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,'$13:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$13:Money],
+  '$13:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,'%1:Money]]} ;
+    {23,'<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,'$13:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$13:Money],
+  '$13:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'#1:Money]]} ; {24,
+    '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'$14:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'$14:Money],
+  '$14:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'%1:Money]]} ; {25,
+    '<_>['__['a.Item,'a.Item,'a.Item,'q.Coin,'$14:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'$14:Money],
+  '$14:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'#1:Money]]} ; {26,
+    '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'$15:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$15:Money],
+  '$15:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ; {27,
+    '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'$15:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$15:Money],
+  '$15:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'#1:Money]]} ; {28,
+    '<_>['__['a.Item,'a.Item,'c.Item,'$16:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'$16:Money],
+  '$16:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'%1:Money]]} ; {29,'<_>['__[
+    'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$17:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$17:Money],
+  '$17:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'%1:Money]]} ;
+    {30,'<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$17:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$17:Money],
+  '$17:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'#1:Money]]} ; {31,
+    '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'$18:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$18:Money],
+  '$18:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ; {32,
+    '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'$18:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$18:Money],
+  '$18:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'#1:Money]]} ; {33,
+    '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'$19:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$19:Money],
+  '$19:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ; {34,
+    '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'$19:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$19:Money],
+  '$19:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'#1:Money]]} ; {35,
+    '<_>['__['a.Item,'c.Item,'c.Item,'$20:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$20:Money],
+  '$20:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'%1:Money]]} ; {36,'<_>['__[
+    'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$21:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$21:Money],
+  '$21:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'%1:Money]]} ;
+    {37,'<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$21:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$21:Money],
+  '$21:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'#1:Money]]} ; {38,
+    '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'$22:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$22:Money],
+  '$22:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ; {39,
+    '<_>['__['a.Item,'a.Item,'c.Item,'q.Coin,'$22:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$22:Money],
+  '$22:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'#1:Money]]} ; {40,
+    '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'$23:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$23:Money],
+  '$23:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ; {41,
+    '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'$23:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$23:Money],
+  '$23:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'#1:Money]]} ; {42,
+    '<_>['__['a.Item,'c.Item,'c.Item,'$24:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$24:Money],
+  '$24:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'%1:Money]]} ; {43,'<_>['__[
+    'a.Item,'c.Item,'c.Item,'q.Coin,'$25:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$25:Money],
+  '$25:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ; {44,
+    '<_>['__['a.Item,'c.Item,'c.Item,'q.Coin,'$25:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$25:Money],
+  '$25:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'#1:Money]]} ; {45,
+    '<_>['__['c.Item,'c.Item,'c.Item,'$26:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$26:Money],
+  '$26:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['c.Item,'c.Item,'c.Item,'%1:Money]]} ; {46,'<_>['__[
+    '$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'$27:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$27:Money],
+  '$27:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'%1:Money]]} ;
+    {47,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$28:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$28:Money],
+  '$28:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'%1:Money]]} ;
+    {48,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$28:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$28:Money],
+  '$28:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'#1:Money]]} ;
+    {49,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,
+    '$29:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$29:Money],
+  '$29:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {50,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$29:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$29:Money],
+  '$29:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {51,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'$30:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$30:Money],
+  '$30:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ; {52,
+    '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,'$31:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$31:Money],
+  '$31:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {53,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'$31:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$31:Money],
+  '$31:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'#1:Money]]} ;
+    {54,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$32:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$32:Money],
+  '$32:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'%1:Money]]} ;
+    {55,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$32:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$32:Money],
+  '$32:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'#1:Money]]} ;
+    {56,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$33:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$33:Money],
+  '$33:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {57,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$33:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$33:Money],
+  '$33:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {58,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'$34:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$34:Money],
+  '$34:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ; {59,
+    '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,
+    '$35:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$35:Money],
+  '$35:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {60,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$35:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$35:Money],
+  '$35:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {61,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,'$36:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$36:Money],
+  '$36:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {62,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'$36:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$36:Money],
+  '$36:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {63,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$37:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$37:Money],
+  '$37:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {64,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$37:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$37:Money],
+  '$37:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {65,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'$38:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$38:Money],
+  '$38:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ; {66,
+    '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,'q.Coin,
+    '$39:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$39:Money],
+  '$39:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {67,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$39:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$39:Money],
+  '$39:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'#1:Money]]} ;
+    {68,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$40:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$40:Money],
+  '$40:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'%1:Money]]} ;
+    {69,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$40:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$40:Money],
+  '$40:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'#1:Money]]} ;
+    {70,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$41:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$41:Money],
+  '$41:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {71,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'$41:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$41:Money],
+  '$41:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {72,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'$42:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$42:Money],
+  '$42:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ; {73,
+    '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,'$43:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$43:Money],
+  '$43:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {74,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'$43:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$43:Money],
+  '$43:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'#1:Money]]} ;
+    {75,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$44:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$44:Money],
+  '$44:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'%1:Money]]} ;
+    {76,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$44:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$44:Money],
+  '$44:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'#1:Money]]} ;
+    {77,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$45:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$45:Money],
+  '$45:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {78,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$45:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$45:Money],
+  '$45:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {79,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'$46:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'$46:Money],
+  '$46:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ; {80,
+    '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$47:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$47:Money],
+  '$47:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {81,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'$47:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$47:Money],
+  '$47:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {82,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$48:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$48:Money],
+  '$48:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {83,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$48:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$48:Money],
+  '$48:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {84,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$49:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$49:Money],
+  '$49:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {85,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$49:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$49:Money],
+  '$49:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {86,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'$50:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$50:Money],
+  '$50:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ; {87,
+    '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,
+    '$51:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$51:Money],
+  '$51:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {88,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$51:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$51:Money],
+  '$51:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {89,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$52:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$52:Money],
+  '$52:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {90,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$52:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$52:Money],
+  '$52:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {91,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,'$53:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$53:Money],
+  '$53:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {92,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'$53:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$53:Money],
+  '$53:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {93,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'$54:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$54:Money],
+  '$54:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ; {94,
+    '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,'$55:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$55:Money],
+  '$55:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {95,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'$55:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$55:Money],
+  '$55:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {96,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$56:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$56:Money],
+  '$56:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {97,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$56:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$56:Money],
+  '$56:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {98,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$57:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$57:Money],
+  '$57:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {99,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'$57:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$57:Money],
+  '$57:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {100,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$58:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$58:Money],
+  '$58:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {101,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$58:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$58:Money],
+  '$58:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {102,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$59:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$59:Money],
+  '$59:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {103,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$59:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$59:Money],
+  '$59:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {104,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'$60:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$60:Money],
+  '$60:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ; {105,
+    '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$61:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$61:Money],
+  '$61:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {106,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$61:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$61:Money],
+  '$61:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {107,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'$62:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$62:Money],
+  '$62:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ; {108,
+    '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,
+    '$63:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$63:Money],
+  '$63:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {109,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$63:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$63:Money],
+  '$63:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {110,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$64:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$64:Money],
+  '$64:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {111,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$64:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$64:Money],
+  '$64:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {112,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,'$65:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$65:Money],
+  '$65:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {113,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'$65:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$65:Money],
+  '$65:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {114,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'$66:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$66:Money],
+  '$66:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ; {115,
+    '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,'$67:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$67:Money],
+  '$67:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {116,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'$67:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$67:Money],
+  '$67:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {117,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$68:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$68:Money],
+  '$68:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {118,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'$68:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$68:Money],
+  '$68:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'#1:Money]]} ;
+    {119,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$69:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$69:Money],
+  '$69:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {120,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$69:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$69:Money],
+  '$69:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {121,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'$70:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$70:Money],
+  '$70:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ; {122,
+    '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,'$71:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$71:Money],
+  '$71:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {123,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'$71:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$71:Money],
+  '$71:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {124,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$72:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$72:Money],
+  '$72:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {125,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$72:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$72:Money],
+  '$72:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {126,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$73:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$73:Money],
+  '$73:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {127,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$73:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$73:Money],
+  '$73:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {128,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'$74:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$74:Money],
+  '$74:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ; {129,
+    '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,'$75:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$75:Money],
+  '$75:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '%1:Money]]} ; {130,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'$75:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$75:Money],
+  '$75:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {131,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$76:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$76:Money],
+  '$76:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {132,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'$76:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$76:Money],
+  '$76:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {133,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$77:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$77:Money],
+  '$77:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {134,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$77:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$77:Money],
+  '$77:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {135,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'$78:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,'$78:Money],
+  '$78:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ; {136,
+    '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$79:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$79:Money],
+  '$79:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'%1:Money]]} ;
+    {137,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'$79:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$79:Money],
+  '$79:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'#1:Money]]} ;
+    {138,'<_>['__['c.Item,'c.Item,'c.Item,'c.Item,'$80:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$80:Money],
+  '$80:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['c.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ; {139,
+    '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'$81:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$81:Money],
+  '$81:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {140,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$81:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$81:Money],
+  '$81:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {141,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$82:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$82:Money],
+  '$82:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {142,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    '$83:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$83:Money],
+  '$83:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {143,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'a.Item,'q.Coin,'q.Coin,'$83:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$83:Money],
+  '$83:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {144,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$84:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$84:Money],
+  '$84:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {145,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$84:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$84:Money],
+  '$84:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {146,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$85:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$85:Money],
+  '$85:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {147,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$85:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$85:Money],
+  '$85:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {148,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$86:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$86:Money],
+  '$86:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {149,'<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'$87:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$87:Money],
+  '$87:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '%1:Money]]} ; {150,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$88:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$88:Money],
+  '$88:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {151,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$88:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$88:Money],
+  '$88:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {152,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$89:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$89:Money],
+  '$89:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {153,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$89:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$89:Money],
+  '$89:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {154,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$90:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$90:Money],
+  '$90:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {155,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$91:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$91:Money],
+  '$91:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {156,'<_>['__['a.Item,'a.Item,'a.Item,
+    'a.Item,'a.Item,'q.Coin,'q.Coin,'q.Coin,'$91:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$91:Money],
+  '$91:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {157,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$92:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$92:Money],
+  '$92:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {158,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$92:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$92:Money],
+  '$92:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {159,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'$93:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$93:Money],
+  '$93:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {160,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$93:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$93:Money],
+  '$93:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {161,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$94:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$94:Money],
+  '$94:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {162,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    '$95:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$95:Money],
+  '$95:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {163,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'a.Item,'q.Coin,'q.Coin,'$95:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$95:Money],
+  '$95:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {164,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$96:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$96:Money],
+  '$96:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {165,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$96:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$96:Money],
+  '$96:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {166,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$97:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$97:Money],
+  '$97:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {167,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$97:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$97:Money],
+  '$97:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {168,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$98:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$98:Money],
+  '$98:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {169,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '$99:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$99:Money],
+  '$99:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {170,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$99:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$99:Money],
+  '$99:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {171,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$100:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$100:Money],
+  '$100:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {172,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$100:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$100:Money],
+  '$100:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {173,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$101:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$101:Money],
+  '$101:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {174,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$101:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$101:Money],
+  '$101:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {175,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$102:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$102:Money],
+  '$102:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {176,'<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$103:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$103:Money],
+  '$103:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '%1:Money]]} ; {177,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$104:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$104:Money],
+  '$104:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {178,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$104:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$104:Money],
+  '$104:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {179,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$105:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$105:Money],
+  '$105:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {180,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$105:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$105:Money],
+  '$105:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {181,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$106:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$106:Money],
+  '$106:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {182,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$107:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$107:Money],
+  '$107:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {183,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$107:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$107:Money],
+  '$107:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {184,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$108:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$108:Money],
+  '$108:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {185,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$108:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$108:Money],
+  '$108:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {186,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'$109:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$109:Money],
+  '$109:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {187,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$109:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$109:Money],
+  '$109:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {188,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$110:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$110:Money],
+  '$110:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {189,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$110:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$110:Money],
+  '$110:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {190,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$111:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$111:Money],
+  '$111:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {191,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$111:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$111:Money],
+  '$111:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {192,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$112:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$112:Money],
+  '$112:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {193,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '$113:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$113:Money],
+  '$113:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {194,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$113:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$113:Money],
+  '$113:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {195,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$114:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$114:Money],
+  '$114:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {196,'<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '$115:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$115:Money],
+  '$115:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '%1:Money]]} ; {197,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$116:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$116:Money],
+  '$116:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {198,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$116:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$116:Money],
+  '$116:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {199,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$117:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$117:Money],
+  '$117:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {200,'<_>['__['a.Item,'a.Item,'a.Item,
+    'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$117:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$117:Money],
+  '$117:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {201,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$118:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$118:Money],
+  '$118:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {202,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    '$119:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$119:Money],
+  '$119:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {203,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'a.Item,'q.Coin,'q.Coin,'$119:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$119:Money],
+  '$119:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {204,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$120:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$120:Money],
+  '$120:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {205,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$120:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$120:Money],
+  '$120:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {206,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$121:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$121:Money],
+  '$121:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {207,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$121:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$121:Money],
+  '$121:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {208,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$122:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$122:Money],
+  '$122:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {209,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$123:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$123:Money],
+  '$123:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {210,'<_>['__['a.Item,'a.Item,'a.Item,
+    'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$123:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$123:Money],
+  '$123:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {211,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$124:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$124:Money],
+  '$124:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {212,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$124:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$124:Money],
+  '$124:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {213,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$125:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$125:Money],
+  '$125:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {214,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$125:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$125:Money],
+  '$125:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {215,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$126:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$126:Money],
+  '$126:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {216,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$127:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$127:Money],
+  '$127:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {217,'<_>['__['a.Item,'a.Item,'a.Item,
+    'a.Item,'a.Item,'q.Coin,'q.Coin,'q.Coin,'$127:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$127:Money],
+  '$127:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {218,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$128:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$128:Money],
+  '$128:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {219,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$128:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$128:Money],
+  '$128:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {220,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'$129:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$129:Money],
+  '$129:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {221,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$129:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$129:Money],
+  '$129:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {222,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$130:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$130:Money],
+  '$130:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {223,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,'q.Coin,
+    '$131:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$131:Money],
+  '$131:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {224,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'a.Item,'q.Coin,'q.Coin,'$131:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$131:Money],
+  '$131:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {225,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$132:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$132:Money],
+  '$132:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,'q.Coin,
+    '%1:Money]]} ; {226,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    'q.Coin,'$132:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$132:Money],
+  '$132:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'a.Item,
+    '#1:Money]]} ; {227,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$133:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$133:Money],
+  '$133:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {228,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$133:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$133:Money],
+  '$133:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {229,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$134:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$134:Money],
+  '$134:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'%1:Money]]} ;
+    {230,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '$135:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$135:Money],
+  '$135:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {231,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$135:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$135:Money],
+  '$135:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {232,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$136:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$136:Money],
+  '$136:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {233,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$136:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$136:Money],
+  '$136:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {234,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$137:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$137:Money],
+  '$137:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {235,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$137:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$137:Money],
+  '$137:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {236,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$138:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$138:Money],
+  '$138:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {237,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$139:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$139:Money],
+  '$139:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {238,'<_>['__['a.Item,'a.Item,'a.Item,
+    'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$139:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$139:Money],
+  '$139:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {239,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$140:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$140:Money],
+  '$140:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {240,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$140:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$140:Money],
+  '$140:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {241,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$141:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$141:Money],
+  '$141:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {242,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$141:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$141:Money],
+  '$141:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {243,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$142:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$142:Money],
+  '$142:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {244,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$143:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$143:Money],
+  '$143:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {245,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$143:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$143:Money],
+  '$143:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {246,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$144:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$144:Money],
+  '$144:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {247,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$144:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$144:Money],
+  '$144:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {248,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'$145:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$145:Money],
+  '$145:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {249,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$145:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$145:Money],
+  '$145:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {250,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$146:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$146:Money],
+  '$146:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {251,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$146:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$146:Money],
+  '$146:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {252,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$147:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$147:Money],
+  '$147:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {253,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$147:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$147:Money],
+  '$147:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {254,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$148:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$148:Money],
+  '$148:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {255,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '$149:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$149:Money],
+  '$149:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {256,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$149:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$149:Money],
+  '$149:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {257,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$150:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$150:Money],
+  '$150:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {258,'<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$151:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$151:Money],
+  '$151:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '%1:Money]]} ; {259,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$152:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$152:Money],
+  '$152:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {260,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$152:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$152:Money],
+  '$152:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {261,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$153:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$153:Money],
+  '$153:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {262,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$153:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$153:Money],
+  '$153:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {263,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$154:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$154:Money],
+  '$154:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {264,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '$155:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$155:Money],
+  '$155:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {265,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$155:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$155:Money],
+  '$155:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {266,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$156:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$156:Money],
+  '$156:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {267,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$156:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$156:Money],
+  '$156:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {268,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$157:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$157:Money],
+  '$157:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {269,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$157:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$157:Money],
+  '$157:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {270,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$158:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$158:Money],
+  '$158:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {271,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$159:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$159:Money],
+  '$159:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {272,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$159:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$159:Money],
+  '$159:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {273,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$160:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$160:Money],
+  '$160:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {274,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$160:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$160:Money],
+  '$160:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {275,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$161:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$161:Money],
+  '$161:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {276,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$161:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$161:Money],
+  '$161:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {277,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$162:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$162:Money],
+  '$162:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {278,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$163:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$163:Money],
+  '$163:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {279,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$163:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$163:Money],
+  '$163:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {280,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$164:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$164:Money],
+  '$164:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {281,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$164:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$164:Money],
+  '$164:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {282,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$165:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$165:Money],
+  '$165:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {283,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$165:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$165:Money],
+  '$165:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {284,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$166:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$166:Money],
+  '$166:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {285,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$167:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$167:Money],
+  '$167:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {286,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$167:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$167:Money],
+  '$167:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {287,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$168:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$168:Money],
+  '$168:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {288,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$168:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$168:Money],
+  '$168:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {289,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$169:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$169:Money],
+  '$169:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {290,'<_>['__['a.Item,'a.Item,'a.Item,
+    'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$169:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$169:Money],
+  '$169:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {291,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$170:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$170:Money],
+  '$170:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {292,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$170:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$170:Money],
+  '$170:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {293,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$171:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$171:Money],
+  '$171:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {294,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$171:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$171:Money],
+  '$171:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {295,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$172:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$172:Money],
+  '$172:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {296,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '$173:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$173:Money],
+  '$173:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {297,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$173:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$173:Money],
+  '$173:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {298,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$174:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$174:Money],
+  '$174:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {299,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$174:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$174:Money],
+  '$174:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {300,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$175:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$175:Money],
+  '$175:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {301,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$175:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$175:Money],
+  '$175:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {302,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$176:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$176:Money],
+  '$176:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {303,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$177:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$177:Money],
+  '$177:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {304,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$177:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$177:Money],
+  '$177:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {305,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$178:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$178:Money],
+  '$178:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {306,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$178:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$178:Money],
+  '$178:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {307,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$179:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$179:Money],
+  '$179:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {308,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$179:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$179:Money],
+  '$179:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {309,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$180:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$180:Money],
+  '$180:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {310,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$181:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$181:Money],
+  '$181:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {311,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$181:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$181:Money],
+  '$181:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {312,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$182:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$182:Money],
+  '$182:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {313,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$182:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$182:Money],
+  '$182:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {314,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$183:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$183:Money],
+  '$183:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {315,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$183:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$183:Money],
+  '$183:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {316,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$184:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$184:Money],
+  '$184:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {317,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '$185:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$185:Money],
+  '$185:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {318,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$185:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$185:Money],
+  '$185:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {319,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '$186:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$186:Money],
+  '$186:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {320,'<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '$187:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$187:Money],
+  '$187:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '%1:Money]]} ; {321,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$188:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$188:Money],
+  '$188:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {322,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$188:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$188:Money],
+  '$188:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {323,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'q.Coin,'$189:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$189:Money],
+  '$189:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {324,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$189:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$189:Money],
+  '$189:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {325,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$190:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$190:Money],
+  '$190:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {326,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '$191:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$191:Money],
+  '$191:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {327,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$191:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$191:Money],
+  '$191:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {328,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$192:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$192:Money],
+  '$192:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {329,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$192:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$192:Money],
+  '$192:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {330,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$193:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$193:Money],
+  '$193:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {331,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$193:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$193:Money],
+  '$193:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {332,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$194:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$194:Money],
+  '$194:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {333,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$195:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$195:Money],
+  '$195:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {334,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$195:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$195:Money],
+  '$195:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {335,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$196:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$196:Money],
+  '$196:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {336,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$196:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$196:Money],
+  '$196:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {337,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$197:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$197:Money],
+  '$197:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {338,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$197:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$197:Money],
+  '$197:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {339,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$198:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$198:Money],
+  '$198:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {340,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$199:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$199:Money],
+  '$199:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {341,'<_>['__['a.Item,'a.Item,'a.Item,
+    'a.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$199:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$199:Money],
+  '$199:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {342,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$200:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$200:Money],
+  '$200:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {343,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$200:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$200:Money],
+  '$200:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {344,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$201:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$201:Money],
+  '$201:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {345,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$201:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$201:Money],
+  '$201:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {346,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$202:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$202:Money],
+  '$202:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {347,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,'q.Coin,
+    '$203:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$203:Money],
+  '$203:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {348,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,
+    'c.Item,'q.Coin,'q.Coin,'$203:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$203:Money],
+  '$203:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {349,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$204:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$204:Money],
+  '$204:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {350,'<_>['__['a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    'q.Coin,'$204:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$204:Money],
+  '$204:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'a.Item,'c.Item,
+    '#1:Money]]} ; {351,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$205:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$205:Money],
+  '$205:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {352,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$205:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$205:Money],
+  '$205:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {353,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '$206:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'$206:Money],
+  '$206:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {354,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$207:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$207:Money],
+  '$207:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {355,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$207:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$207:Money],
+  '$207:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {356,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$208:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$208:Money],
+  '$208:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {357,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$208:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$208:Money],
+  '$208:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {358,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$209:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$209:Money],
+  '$209:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {359,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$209:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$209:Money],
+  '$209:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {360,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$210:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$210:Money],
+  '$210:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {361,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$211:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$211:Money],
+  '$211:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {362,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$211:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$211:Money],
+  '$211:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {363,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$212:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$212:Money],
+  '$212:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {364,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$212:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$212:Money],
+  '$212:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {365,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$213:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$213:Money],
+  '$213:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {366,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$213:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$213:Money],
+  '$213:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {367,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$214:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$214:Money],
+  '$214:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {368,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$215:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$215:Money],
+  '$215:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {369,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$215:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$215:Money],
+  '$215:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {370,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$216:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$216:Money],
+  '$216:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {371,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$216:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$216:Money],
+  '$216:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {372,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$217:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$217:Money],
+  '$217:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {373,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$217:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$217:Money],
+  '$217:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {374,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$218:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$218:Money],
+  '$218:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {375,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$218:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$218:Money],
+  '$218:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {376,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$219:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$219:Money],
+  '$219:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {377,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$219:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$219:Money],
+  '$219:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {378,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$220:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$220:Money],
+  '$220:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {379,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '$221:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$221:Money],
+  '$221:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {380,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$221:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$221:Money],
+  '$221:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {381,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '$222:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$222:Money],
+  '$222:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {382,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    'q.Coin,'$223:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$223:Money],
+  '$223:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'q.Coin,'%1:Money]]} ; {383,'<_>['__['a.Item,'a.Item,'a.Item,
+    'c.Item,'c.Item,'q.Coin,'q.Coin,'q.Coin,'$223:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$223:Money],
+  '$223:Money <- '__['q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {384,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$224:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$224:Money],
+  '$224:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {385,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$224:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$224:Money],
+  '$224:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {386,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'q.Coin,'$225:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$225:Money],
+  '$225:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {387,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$225:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$225:Money],
+  '$225:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {388,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$226:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$226:Money],
+  '$226:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {389,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$227:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$227:Money],
+  '$227:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {390,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$227:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$227:Money],
+  '$227:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {391,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$228:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$228:Money],
+  '$228:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {392,'<_>['__['a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    'q.Coin,'$228:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$228:Money],
+  '$228:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'a.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {393,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$229:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$229:Money],
+  '$229:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {394,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$229:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$229:Money],
+  '$229:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {395,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '$230:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'$230:Money],
+  '$230:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {396,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$231:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$231:Money],
+  '$231:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {397,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$231:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$231:Money],
+  '$231:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {398,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$232:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$232:Money],
+  '$232:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {399,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$232:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$232:Money],
+  '$232:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {400,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$233:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$233:Money],
+  '$233:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {401,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$233:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$233:Money],
+  '$233:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {402,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '$234:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$234:Money],
+  '$234:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {403,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,'q.Coin,
+    '$235:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$235:Money],
+  '$235:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    'q.Coin,'%1:Money]]} ; {404,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,
+    'c.Item,'q.Coin,'q.Coin,'$235:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$235:Money],
+  '$235:Money <- '__['q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {405,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$236:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$236:Money],
+  '$236:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {406,'<_>['__['a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$236:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$236:Money],
+  '$236:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'a.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {407,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$237:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$237:Money],
+  '$237:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {408,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$237:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$237:Money],
+  '$237:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {409,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '$238:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'q.Coin,'q.Coin,'q.Coin,
+    '$238:Money],
+  '$238:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]} ;
+    {410,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '$239:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$239:Money],
+  '$239:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,'q.Coin,
+    '%1:Money]]} ; {411,'<_>['__['a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    'q.Coin,'$239:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$239:Money],
+  '$239:Money <- '__['q.Coin,'q.Coin,'q.Coin,'#1:Money] ; 
+  'St:State <- '<_>['__['$.Coin,'a.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '#1:Money]]} ; {412,'<_>['__['c.Item,'c.Item,'c.Item,'c.Item,'c.Item,
+    '$240:Money]],
+  'M:Money <- '__['$.Coin,'$.Coin,'$.Coin,'$.Coin,'$.Coin,'$240:Money],
+  '$240:Money <- '%1:Money ; 
+  'St:State <- '<_>['__['c.Item,'c.Item,'c.Item,'c.Item,'c.Item,'%1:Money]]}
+Bye.

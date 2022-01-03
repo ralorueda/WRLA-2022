@@ -1,0 +1,13 @@
+reduce in NATIVE-NARROWING :
+        nativeNarrowing(
+              upModule('XOR-PROTOCOL, false),
+              '`{_`{_`}`}['_&_['`[_|_`]['_`,_['nil.SMsgList,'+['pk['a.Name,'n['b.Name,'r1.Fresh]]],
+              '-['pk['b.Name,'Y:Msg]],'+['_*_['Y:Msg,'n['b.Name,'r1.Fresh]]]],'nil.SMsgList],
+              '`[_|_`]['_`,_['nil.SMsgList,'-['pk['a.Name,'X:Msg]],'+['pk['b.Name,'n['a.Name,'r2.Fresh]]],
+              '-['_*_['X:Msg,'n['a.Name,'r2.Fresh]]]],'nil.SMsgList]],'_`,_['inI['_*_['X:Msg,'n['a.Name,'r2.Fresh]]],
+              'inI['pk['a.Name,'X:Msg]],'inI['pk['b.Name,'Y:Msg]]]],
+              '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,'r1.Fresh]]],'-['pk['b.Name,'Y:Msg]],
+              '+['_*_['Y:Msg,'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,'_`,_['-['pk['a.Name,'X:Msg]],
+              '+['pk['b.Name,'n['a.Name,'r2.Fresh]]],'-['_*_['X:Msg,'n['a.Name,'r2.Fresh]]],'nil.SMsgList]]],
+              '_`,_['nI['_*_['X:Msg,'n['a.Name,'r2.Fresh]]],'nI['pk['a.Name,'X:Msg]],'nI['pk['b.Name,'Y:Msg]]]],
+              '*, unbounded, 'none, unbounded) .

@@ -1,0 +1,10 @@
+		     \||||||||||||||||||/
+		   --- Welcome to Maude ---
+		     /||||||||||||||||||\
+	     Maude alpha136 built: Jun  9 2021 03:42:03
+	     Copyright 1997-2021 SRI International
+		   Thu Dec 23 17:47:22 2021
+==========================================
+reduce in NARROWING : narrowing(upModule('IDEMPOTENCE-VENDING-MACHINE, false),
+    '<_>['M1:Money], =>*, '<_>['__['$.Coin,'a.Item,'c.Item,'M2:Marking]],
+    standard, none, empty, '@, 5, unbounded) .

@@ -1,0 +1,1264 @@
+		     \||||||||||||||||||/
+		   --- Welcome to Maude ---
+		     /||||||||||||||||||\
+	     Maude alpha136 built: Jun  9 2021 03:42:03
+	     Copyright 1997-2021 SRI International
+		   Thu Dec 23 17:03:14 2021
+==========================================
+reduce in NATIVE-NARROWING : nativeNarrowing(upModule('XOR-PROTOCOL, false),
+    '`{_`{_`}`}['_&_['`[_|_`]['_`,_['nil.SMsgList,'+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'Y:Msg]],'+['_*_['Y:Msg,'n['b.Name,
+    'r1.Fresh]]]],'nil.SMsgList],'`[_|_`]['_`,_['nil.SMsgList,'-['pk['a.Name,
+    'X:Msg]],'+['pk['b.Name,'n['a.Name,'r2.Fresh]]],'-['_*_['X:Msg,'n['a.Name,
+    'r2.Fresh]]]],'nil.SMsgList]],'_`,_['inI['_*_['X:Msg,'n['a.Name,
+    'r2.Fresh]]],'inI['pk['a.Name,'X:Msg]],'inI['pk['b.Name,'Y:Msg]]]],
+    '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'Y:Msg]],'+['_*_['Y:Msg,'n['b.Name,
+    'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,'_`,_['-['pk['a.Name,
+    'X:Msg]],'+['pk['b.Name,'n['a.Name,'r2.Fresh]]],'-['_*_['X:Msg,'n['a.Name,
+    'r2.Fresh]]],'nil.SMsgList]]],'_`,_['nI['_*_['X:Msg,'n['a.Name,
+    'r2.Fresh]]],'nI['pk['a.Name,'X:Msg]],'nI['pk['b.Name,'Y:Msg]]]], '*,
+    unbounded, 'none, unbounded) .
+rewrites: 27279 in 1660ms cpu (1659ms real) (16433 rewrites/second)
+result NarrowingSearchSolutionList: {1,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {2,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {3,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {4,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {5,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {6,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- 'n['b.Name,'r1.Fresh] ; 
+    'Y:Msg <- 'n['a.Name,'r2.Fresh],
+  '%,(none).Substitution,
+  '#
+}} ; {7,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- 'n['a.Name,'r2.Fresh],
+  '%,(none).Substitution,
+  '#
+}} ; {8,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {9,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {10,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- 'n['a.Name,'r2.Fresh],
+  '@,(none).Substitution,
+  '#
+}} ; {11,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {12,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- 'n['b.Name,'r1.Fresh] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {13,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {14,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {15,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- 'n['b.Name,'r1.Fresh] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {16,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {17,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {18,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {19,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {20,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {21,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {22,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- 'n['a.Name,'r2.Fresh],
+  '%,(none).Substitution,
+  '#
+}} ; {23,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {24,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {25,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- 'n['a.Name,'r2.Fresh],
+  '@,(none).Substitution,
+  '#
+}} ; {26,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {27,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {28,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {29,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {30,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {31,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {32,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- 'n['a.Name,'r2.Fresh],
+  '%,(none).Substitution,
+  '#
+}} ; {33,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {34,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {35,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {36,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {37,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {38,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {39,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {40,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {41,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {42,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {43,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- 'n['b.Name,'r1.Fresh] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {44,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {45,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {46,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- 'n['b.Name,'r1.Fresh] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {47,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {48,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {49,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {50,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {51,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {52,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {53,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {54,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {55,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {56,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {57,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {58,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- 'n['b.Name,'r1.Fresh] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {59,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {60,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {61,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {62,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {63,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {64,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {65,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {66,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {67,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {68,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {69,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {70,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {71,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {72,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {73,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {74,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {75,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {76,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {77,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {78,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {79,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {80,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {81,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {82,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n[
+    'b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['mt.XOR,'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n[
+    'b.Name,'r1.Fresh]],
+  '@,(none).Substitution,
+  '#
+}} ; {83,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh],'n['b.Name,'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}} ; {84,{
+  '`{_`{_`}`}['_&_['`[_|_`]['nil.SMsgList,'_`,_['+['pk['a.Name,'n['b.Name,
+    'r1.Fresh]]],'-['pk['b.Name,'n['a.Name,'r2.Fresh]]],'+['_*_['n['a.Name,
+    'r2.Fresh],'n['b.Name,'r1.Fresh]]],'nil.SMsgList]],'`[_|_`]['nil.SMsgList,
+    '_`,_['-['pk['a.Name,'n['b.Name,'r1.Fresh]]],'+['pk['b.Name,'n['a.Name,
+    'r2.Fresh]]],'-['_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh]]],
+    'nil.SMsgList]]],'_`,_['nI['_*_['n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]]],'nI['pk['a.Name,'n['b.Name,'r1.Fresh]]],'nI['pk['b.Name,'n[
+    'a.Name,'r2.Fresh]]]]],'State,
+    'X:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['a.Name,'r2.Fresh],'n['b.Name,
+    'r1.Fresh]] ; 
+    'Y:Msg <- '_*_['n['a.Name,'r2.Fresh],'n['b.Name,'r1.Fresh],'n['b.Name,
+    'r1.Fresh]],
+  '%,(none).Substitution,
+  '#
+}}
+Bye.

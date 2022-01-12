@@ -21,3 +21,34 @@ mod ABELIAN-GROUP is
 
    rl [r1] : < (X + 1),Y > => < ((X + 1) + (- 1)),(Y + 1) > [narrowing] .
 endm
+
+fmod ABELIAN-GROUP is
+   sort Int .
+
+   ops 0 1 : -> Int [ctor] .
+   op _+_ : Int Int -> Int [assoc comm prec 30] .
+   op -_ : Int -> Int .
+
+   vars X Y Z : Int .
+
+   eq X + 0 = X [variant] .
+   eq X + (- X) = 0 [variant] .
+   eq X + (- X) + Y = Y [variant] .
+   eq - (- X) = X [variant] .
+   eq - 0 = 0 [variant] .
+   eq (- X) + (- Y) = -(X + Y) [variant] .
+   eq -(X + Y) + Y = - X [variant] .
+   eq -(- X + Y) = X + (- Y) [variant] .
+   eq (- X) + (- Y) + Z = -(X + Y) + Z [variant] .
+   eq - (X + Y) + Y + Z = (- X) + Z [variant] .
+endfm
+
+mod PROC-COUNTER is
+   protecting ABELIAN-GROUP .
+   sort State .
+
+   op <_,_> : Int Int -> State [ctor] .
+   vars X Y Z : Int .
+
+   rl [finish-proc] : < (X + 1),Y > => < ((X + 1) + (- 1)),(Y + 1) > [narrowing] .
+endm

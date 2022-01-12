@@ -1,0 +1,10 @@
+		     \||||||||||||||||||/
+		   --- Welcome to Maude ---
+		     /||||||||||||||||||\
+	     Maude alpha136 built: Jun  9 2021 03:42:03
+	     Copyright 1997-2021 SRI International
+		   Thu Dec 23 17:23:27 2021
+==========================================
+reduce in NATIVE-NARROWING : nativeNarrowing(upModule('PROC-COUNTER, false),
+    '<_`,_>['0.Int,'_+_['1.Int,'X:Int]], '<_`,_>['-_['_+_['1.Int,'1.Int]],
+    'Y:Int], '*, 2, 'none, unbounded) .

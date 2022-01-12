@@ -1,0 +1,6 @@
+reduce in NATIVE-NARROWING :
+        nativeNarrowing(
+              upModule('PROC-COUNTER, false),
+              '<_`,_>['0.Int,'_+_['1.Int,'X:Int]],
+              '<_`,_>['-_['_+_['1.Int,'1.Int,'1.Int, '1.Int]],'Y:Int],
+              '*, 4, 'none, unbounded) .

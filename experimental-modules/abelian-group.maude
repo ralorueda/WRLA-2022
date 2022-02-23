@@ -1,6 +1,9 @@
+--- This module is a very simple module defining the properties of 
+--- an abelian group.
+
 fmod ABELIAN-GROUP is
    sort Int .
-
+  
    ops 0 1 : -> Int [ctor] .
    op _+_ : Int Int -> Int [assoc comm prec 30] .
    op -_ : Int -> Int .
@@ -18,6 +21,18 @@ fmod ABELIAN-GROUP is
    eq (- X) + (- Y) + Z = -(X + Y) + Z [variant] .
    eq - (X + Y) + Y + Z = (- X) + Z [variant] .
 endfm
+
+--- A rewrite theory which consists of a pair of integers that function as process
+--- counters is defined. The first element represents the processes that are running,
+--- while the second represents those that have already finished running. The tran-
+--- sition rule represents the termination of a process that was in execution, so that
+--- the value of the first element of the pair is decreased by one, and at the same
+--- time the value of the second element is increased by one.
+--- The transition rule allows for narrowing, while the abelian group equations
+--- allow for the generation of variants. Combining everything, we get a system of
+--- transitions that, despite looking simple, turns out to be quite complex, due to
+--- the large number of variants that any term will normally have.
+
 
 mod PROC-COUNTER is
    protecting ABELIAN-GROUP .

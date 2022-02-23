@@ -1,3 +1,7 @@
+--- This module goes one step further at the level of complexity. In
+--- this case we implement a Maude specification of a very simple protocol using the
+--- exclusive-or property. Note the addition of the second equation for AC-coherence.
+
 fmod EXCLUSIVE-OR is
    protecting META-LEVEL .
 
@@ -9,6 +13,13 @@ fmod EXCLUSIVE-OR is
   eq [idem-Coh] : X * X * Z = Z [variant] .
   eq [id] :       X * mt = X    [variant] .
 endfm
+
+--- The main structure is a state that stores the set of messages that have been
+--- sent and the new messages to be sent. The exchange of messages is done be-
+--- tween two users for the protocol to take place. The - and + symbols are used as
+--- operators to distinguish between the messages to be sent by one and the other.
+--- The Nonces generation is included in the protocol, as well as data structures
+--- that specify the knowledge that an intruder might have.
 
 mod XOR-PROTOCOL is
   protecting EXCLUSIVE-OR .

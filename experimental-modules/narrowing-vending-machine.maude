@@ -1,3 +1,11 @@
+--- This Maude's system module is a classic in the Maude community. It is the
+--- coffee and apple vending machine, in which dollars and quarters are inserted
+--- to buy combinations of those products. To do this, we specify that each coffee
+--- costs one dollar and each apple three-quarters of a dollar. Two rules handle state
+--- transitions for those specifications. Furthermore, an equation is used to specify
+--- the change of four-quarters of a dollar to one dollar. Note the addition of a
+--- variable M of type Marking to make the rules and equations ACU-coherent.
+
 mod NARROWING-VENDING-MACHINE is
    sorts Coin Item Marking Money State .
    subsort Coin < Money .

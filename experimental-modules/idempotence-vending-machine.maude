@@ -1,3 +1,11 @@
+--- We can modify the equational theory of the vending machine
+--- to add some equations that express idempotence for the dollar,
+--- apple and coffee symbols.
+--- Note that idempotence is not specified for quarters, but only for dollars, apples
+--- and cups of coffee. This is because there is already an equation that reduces the
+--- repetition of four quarters to a dollar, so that adding idempotence for quarters
+--- would create a conflict.
+
 mod IDEMPOTENCE-VENDING-MACHINE is
    sorts Coin Item Marking Money State .
    subsort Coin < Money .
@@ -10,7 +18,7 @@ mod IDEMPOTENCE-VENDING-MACHINE is
    ops $ q : -> Coin .
    ops c a : -> Item .
 
-   var M : Marking .   var I : Item .
+   var M : Marking .
 
    rl [buy-c] : < M $ > => < M c > [narrowing] .
    rl [buy-a] : < M $ > => < M a q > [narrowing] .

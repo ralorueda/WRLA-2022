@@ -71,8 +71,6 @@ mod XOR-PROTOCOL is
   vars L1 L2 : SMsgList .
   vars NA NB : Nonce .
 
-  eq [idempotence] : NeSS1 & NeSS1 & NeSS2 = NeSS1 & NeSS2 .
-
   rl [r1] : { (SS & [ ( L1 , -(M)) | L2 ])  { (inI(M) , IK) } } =>
             { (SS & [ L1 | (-(M) , L2) ])  { (inI(M) , IK) } } [narrowing] .
   rl [r2] : { (SS & [ (L1 , +(M)) | L2 ])  { (inI(M) , IK) } } =>

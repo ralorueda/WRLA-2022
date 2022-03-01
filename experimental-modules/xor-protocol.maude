@@ -3,8 +3,6 @@
 --- exclusive-or property. Note the addition of the second equation for AC-coherence.
 
 fmod EXCLUSIVE-OR is
-   protecting META-LEVEL .
-
   sort XOR .  
   op mt : -> XOR .
   op _*_ : XOR XOR -> XOR [assoc comm] .

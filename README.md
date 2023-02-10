@@ -47,7 +47,6 @@ Now we give an example of use if, for example, we want to execute a reachability
 ```
 load canonical-narrowing.maude
 load experimental-modules/narrowing-vending-machine.maude
-load 
 ```
 
 Now we can run a problem. For example, we will use the reachability problem M:Money => St:State. That is, we are asking that, from any amount of money, all the states of the search tree be taken as a solution. Also, the depth limit will be 5 and we will ask for unlimited solutions. In this case, the two calls to use both standard and canonical narrowing would be:
